@@ -2,6 +2,10 @@
 
 This lab evaluates different learning paradigms on a synthetic cat-species dataset containing **42 fine-grained classes** with limited samples per class.
 
+## Sample images from dataset : 
+![Sample image](./dataset/cat_species/Balinese/Balinese_3.png)
+
+
 ## Models & Results
 
 ### Supervised Learning (Pretrained)
@@ -36,3 +40,4 @@ Accuracy can be improved by:
 ## Key Observation
 
 Few-shot and zero-shot learning outperform supervised training from scratch, highlighting the importance of representation learning under data imbalance.
+
